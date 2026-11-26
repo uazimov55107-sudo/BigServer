@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.*
+!.env.example
+.web_password
+*.key
+*.pem
+secrets/
+
+# Local environments
+.proxy-env/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Backups
+*.backup*
+*.before_*
+
+# Personal storage and databases
+storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Large media and archives
+*.mp4
+*.mkv
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+*.deb
+
+# OS files
+.DS_Store
